@@ -15,13 +15,8 @@ public class LoginActivity extends AppCompatActivity {
     EditText email, password;
     Button loginButton;
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Toast.makeText(getApplicationContext(),
-                "Welcome to login page",
-                Toast.LENGTH_SHORT).show();
-    }
+
+
 
 
     @Override

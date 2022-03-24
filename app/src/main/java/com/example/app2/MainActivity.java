@@ -17,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
     Button logoutbButton;
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        Toast.makeText(getApplicationContext(),
+                R.string.welcometologin,
+                Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

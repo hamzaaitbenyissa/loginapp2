@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">ARAD AFOS</string>
+    <string name="login">Se connecter</string>
+    <string name="Enter_email">Typez votre email</string>
+    <string name="passwordview">Votre mot de passe</string>
+    <string name="Password">mot de passe</string>
+    <string name="emailview">Votre Email</string>
+    <string name="welcometologin">Bienvenu</string>
+    <string name="logout">Se déconnecter</string>
+</resources>

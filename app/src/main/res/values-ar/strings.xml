@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">ARAD AFOS</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="Enter_email">البريد الالكتروني</string>
+    <string name="Password">الرقم السري</string>
+    <string name="welcometologin">"مرحبا بكم "</string>
+    <string name="emailview">بريدكم الالكتروني</string>
+    <string name="passwordview">رمزكم السري</string>
+    <string name="logout">نسجيل الخروج</string>
+</resources>

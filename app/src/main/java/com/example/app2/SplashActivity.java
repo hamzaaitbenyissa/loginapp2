@@ -3,6 +3,7 @@ package com.example.app2;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +14,42 @@ public class SplashActivity extends AppCompatActivity {
     LottieAnimationView lottieAnimationView;
 
     private static int SPLASH_TIME_OUT = 3000;
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Toast.makeText(this, "Start" , Toast.LENGTH_SHORT).show();
+    }
+
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        Toast.makeText(this, "Resume" , Toast.LENGTH_SHORT).show();
+//    }
+//
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//        Toast.makeText(this, "Pause" , Toast.LENGTH_SHORT).show();
+//    }
+//
+//    @Override
+//    protected void onRestart() {
+//        super.onRestart();
+//        Toast.makeText(this, "ReStart" , Toast.LENGTH_SHORT).show();
+//    }
+//
+//    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        Toast.makeText(this, "Stop" , Toast.LENGTH_SHORT).show();
+//    }
+//
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//        Toast.makeText(this, "Destroy" , Toast.LENGTH_SHORT).show();
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
